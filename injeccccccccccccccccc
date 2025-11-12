@@ -63,11 +63,11 @@ task.spawn(function()
 	end
 end)
 
-ts:Create(ImageLabel1, TweenInfo.new(1.5), { ImageTransparency = 0 }):Play()
-ts:Create(ImageLabel2, TweenInfo.new(1.5), { ImageTransparency = 0 }):Play()
-ts:Create(TextLabel3, TweenInfo.new(1.5), { TextTransparency = 0 }):Play()
+ts:Create(ImageLabel1, TweenInfo.new(2), { ImageTransparency = 0 }):Play()
+ts:Create(ImageLabel2, TweenInfo.new(2), { ImageTransparency = 0 }):Play()
+ts:Create(TextLabel3, TweenInfo.new(2), { TextTransparency = 0 }):Play()
 
-task.wait(2)
+task.wait(3)
 
 ts:Create(TextLabel3, TweenInfo.new(1), { TextTransparency = 1 }):Play()
 ts:Create(ImageLabel1, TweenInfo.new(1), { AnchorPoint = Vector2.new(0, 1), Position = UDim2.new(-0.025, 0,1, 0), Size = UDim2.new(0.175, 0,0.175, 0) }):Play()
