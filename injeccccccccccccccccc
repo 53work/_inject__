@@ -6,6 +6,7 @@ local TextLabel3 = Instance.new("TextLabel")
 
 ScreenGui0.Parent = game.Players.LocalPlayer.PlayerGui
 ScreenGui0.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui0.ResetOnSpawn = false
 ImageLabel1.Name = "c"
 ImageLabel1.Parent = ScreenGui0
 ImageLabel1.Position = UDim2.new(0.5, 0, 0.5, 0)
